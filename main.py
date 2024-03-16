@@ -97,8 +97,7 @@ class MyModel(nn.Module):
         self.feature2_layer8 = nn.Dropout(0.5)
         self.feature3_layer8 = nn.Dropout(0.5)
 
-        # 替换现有的ResNet模型定义
-        self.resnet = ACmix_ResNet(layers=[3, 4, 6, 3], num_classes=num_classes, k_att=7, head=4, k_conv=3)
+        self.resnet = models.resnet18(pretrained=True)
 
         self.fc1 = nn.Linear(2152, num_classes)
 
