@@ -1,7 +1,7 @@
 # Chrysanthemum Classification Method via Multi-Stream Deep Color Space Feature Fusion
-## main.py为执行文件
-## load_front_gray_HSL_2_shuffle.csv为数据，其中1\~20列为菊花图像经过H颜色通道处理的数据，21\~40列为菊花图像经过S颜色通道处理的数据,41\~60列为菊花图像经过L颜色通道处理的数据,最后两列分别为图像存放绝对地址和标签
-### 所需各种库如下（其中有些库并没有什么用处，仅供参考）：
+## main.py is the executable 
+## The file load_front_gray_HSL_2_shuffle.csv contains data. Columns 1 to 20 represent the data of chrysanthemum images processed through the H color channel. Columns 21 to 40 represent the data of chrysanthemum images processed through the S color channel. Columns 41 to 60 represent the data of chrysanthemum images processed through the L color channel. The last two columns respectively contain the absolute addresses of the images and their labels.
+### The required libraries are as follows (some of which may not be useful, for reference only):
 ### Package                 Version
 ### ----------------------- ------------
 ### absl-py                 0.15.0
