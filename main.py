@@ -1,6 +1,3 @@
-# 模型单类别正确率
-# 单通道交互 + 多通道交互（四分之一）(反面)
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
