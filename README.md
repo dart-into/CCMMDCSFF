@@ -1,10 +1,10 @@
 # Chrysanthemum Classification Method via Multi-Stream Deep Color Space Feature Fusion
-main.py为执行文件
-load_front_gray_HSL_2_shuffle.csv为数据，其中1\~20列为菊花图像经过H颜色通道处理的数据，21\~40列为菊花图像经过S颜色通道处理的数据,41\~60列为菊花图像经过L颜色通道处理的数据,最后两列分别为图像存放绝对地址和标签
+##main.py为执行文件
+##load_front_gray_HSL_2_shuffle.csv为数据，其中1\~20列为菊花图像经过H颜色通道处理的数据，21\~40列为菊花图像经过S颜色通道处理的数据,41\~60列为菊花图像经过L颜色通道处理的数据,最后两列分别为图像存放绝对地址和标签
 所需各种库如下（其中有些库并没有什么用处，仅供参考）：
-Package                 Version
------------------------ ------------
-absl-py                 0.15.0
+###Package                 Version
+###----------------------- ------------
+###absl-py                 0.15.0
 astunparse              1.6.3
 bleach                  1.5.0
 cached-property         1.5.2
