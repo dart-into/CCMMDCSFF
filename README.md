@@ -1,8 +1,13 @@
 # Chrysanthemum Classification Method via Multi-Stream Deep Color Space Feature Fusion
-### main.py is the executable 
-### The file load_front_gray_HSL_2_shuffle.csv contains data. Columns 1 to 20 represent the data of chrysanthemum images processed through the H color channel. Columns 21 to 40 represent the data of chrysanthemum images processed through the S color channel. Columns 41 to 60 represent the data of chrysanthemum images processed through the L color channel. The last two columns respectively contain the absolute addresses of the images and their labels.
-### model.pth is a filename used to store PyTorch model files.This file contains the model's parameters, structure, and other necessary information for loading the model later to make predictions or continue training.
-### model_state.pth is a filename used to store the parameter state dictionary of a PyTorch model. This file contains only the parameters of the model, without the model's structure. As a result, it is relatively lightweight. By saving the model's state dictionary, we can recreate the model later and load the previously saved parameters without needing to redefine the model's structure.
+## File Introduction
+### main.py
+main.py is the executable 
+### load_front_gray_HSL_2_shuffle.csv
+The file load_front_gray_HSL_2_shuffle.csv contains data. Columns 1 to 20 represent the data of chrysanthemum images processed through the H color channel. Columns 21 to 40 represent the data of chrysanthemum images processed through the S color channel. Columns 41 to 60 represent the data of chrysanthemum images processed through the L color channel. The last two columns respectively contain the absolute addresses of the images and their labels.
+### model.pth
+model.pth is a filename used to store PyTorch model files.This file contains the model's parameters, structure, and other necessary information for loading the model later to make predictions or continue training.
+### model_state.pth
+model_state.pth is a filename used to store the parameter state dictionary of a PyTorch model. This file contains only the parameters of the model, without the model's structure. As a result, it is relatively lightweight. By saving the model's state dictionary, we can recreate the model later and load the previously saved parameters without needing to redefine the model's structure.
 ### The required libraries are as follows (some of which may not be useful, for reference only):
 ### Package                 Version
 ### ----------------------- ------------
